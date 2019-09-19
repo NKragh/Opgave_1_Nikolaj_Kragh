@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace Opgave_1_Nikolaj_Kragh
 {
-    public class Bog
+    public class Book
     {
         private string _titel;
         private string _forfatter;
@@ -58,9 +58,9 @@ namespace Opgave_1_Nikolaj_Kragh
             }
         }
 
-        public Bog() { }
+        public Book() { }
 
-        public Bog(string titel, string forfatter, int sidetal, string isbn13)
+        public Book(string titel, string forfatter, int sidetal, string isbn13)
         {
             Titel = titel;
             Forfatter = forfatter;

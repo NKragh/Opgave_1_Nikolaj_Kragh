@@ -8,8 +8,8 @@ namespace BogTest
     [TestClass]
     public class UnitTest1
     {
-        Bog b1 = new Bog();
-        Bog b2 = new Bog("Bog", "Forfatter", 10, "kduitgmvlsigt");
+        Book b1 = new Book();
+        Book b2 = new Book("Bog", "Forfatter", 10, "kduitgmvlsigt");
 
         //Valid tests
         [TestMethod]
