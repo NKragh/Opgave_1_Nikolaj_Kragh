@@ -67,6 +67,11 @@ namespace Opgave_1_Nikolaj_Kragh
             Sidetal = sidetal;
             Isbn13 = isbn13;
         }
+
+        public override string ToString()
+        {
+            return $"{nameof(Titel)}: {Titel}, {nameof(Forfatter)}: {Forfatter}, {nameof(Sidetal)}: {Sidetal}, {nameof(Isbn13)}: {Isbn13}";
+        }
     }
 
     public class ISBN13NotValidException : Exception
